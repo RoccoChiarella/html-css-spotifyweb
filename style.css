@@ -165,7 +165,7 @@ nav{
 
 #hamburger-menu{
     color: white;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 #main-menu{
@@ -186,6 +186,8 @@ nav{
 
 main h1{
     color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .card-container{
@@ -196,11 +198,17 @@ main h1{
 .card{
     width: 165px;
     height: 165px;
-    margin: 20px;
+    margin: 5px;
 }
 
-.card img{
-    width: 100%;
+.card-image{
+    display: flex;
+}
+
+.card-image img{
+    align-items: center;
+    height: 150px;
+    width: 75%;
     margin: auto;
     box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.5);
 }
@@ -240,6 +248,10 @@ footer{
     color: #b3b3b3;
 }
 
+.heart i:hover{
+    color: white;
+}
+
 .footer-center{
     padding: 0 10px;
     display: flex;
@@ -264,12 +276,16 @@ footer{
     color: #b3b3b3;
 }
 
+.icons i:hover{
+    color: white;
+}
+
 .icons i:first-child{
     margin-left: 0;
 }
 
 .icons .fa-pause{
-    border: 1px solid color: #b3b3b3;;
+    border: 1px solid #b3b3b3;
     border-radius: 50%;
     width: 26px;
     height: 26px;
@@ -295,7 +311,7 @@ footer{
     opacity: 0.7;
     height: 3px;
     border-radius: 3px;
-    background-color: #b3b3b3;;
+    background-color: #535353;;
     transition: opacity .2s;
     cursor: pointer;
     outline: 0;
@@ -311,7 +327,7 @@ footer{
     border-radius: 50%;
     -webkit-appearance: none;
     appearance: none;
-    background: lightgreen;
+    background: white;
     cursor: pointer;
 }
 
@@ -445,8 +461,11 @@ footer{
     }
 
     .footer-right i{
+        color: #b3b3b3;
+        margin-right: 15px;
+    }
+    .footer-right i:hover{
         color: white;
-        margin-right: 10px;
     }
 }
 
@@ -454,9 +473,5 @@ footer{
     .container{
         max-width: 1200px;
         margin: auto;
-    }
-
-    .card{
-        max-width: 200px;
     }
 }
