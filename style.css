@@ -474,4 +474,8 @@ footer{
         max-width: 1200px;
         margin: auto;
     }
+
+    .card{
+        max-width: 200px;
+    }
 }
