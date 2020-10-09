@@ -207,7 +207,6 @@ main h1{
 
 .card-image img{
     align-items: center;
-    height: 150px;
     width: 75%;
     margin: auto;
     box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.5);
@@ -410,7 +409,7 @@ footer{
     }
 
     .card{
-        width: 200px;
+        width: 190px;
         height: 200px;
     }
 
